@@ -8,7 +8,7 @@ import json
 
  
 def api_connect():
-    api_key='AIzaSyC5z5cTx5T6AxVmgBb9FmYZcz1TjQFvXc8'
+    api_key=***************
     youtube=build('youtube','v3',developerKey=api_key)
     return youtube
 youtube=api_connect()
